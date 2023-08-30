@@ -1,0 +1,122 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.alert{
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 16px 0;
+    color: white;
+    font-size: 16px;
+}
+
+.title{
+    margin: 0;
+}
+.desc{
+    margin-top: 6px;
+    color: rgb(80, 80, 80);
+}
+
+.container{
+    width: 400px;
+    margin: 80px auto 0 auto;
+}
+
+.add-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-task{
+    border: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.flex-input{
+    display: flex;
+    gap: 8px;
+}
+
+.taskInput{
+    width: 88%;
+}
+.dateInput{
+    width: 12%;
+}
+
+input{
+    box-sizing: border-box;
+    padding: 15px;
+    /* width: 100%; */
+    border-radius: 12px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    margin-bottom: 12px;
+
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid royalblue;
+}
+
+.btn{
+    border: none;
+    padding: 14px 24px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+
+.todos-container{
+    width: 400px;
+    margin: 20px auto;
+}
+
+.card{
+    border: 1px solid rgba(255, 184, 30, 0.361);
+    background-color: rgba(255, 188, 30, 0.065);
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    
+}
+
+.card-flex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checkbox{
+    margin: 0;
+}
+
+
+
+.task{
+    font-size: 18px;
+    margin-bottom: 3px;
+
+}
+.due-date{
+    font-size: 15px;
+    color: gray;
+    margin-left: 26px;
+
+}
+
+.d-none{
+    display: none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="alert">😇Start adding Your tasks and manage them😇</div>
+    <div class="container">
+        <div class="add-flex">
+            <h2 class="title">Manage your task @gaurav</h2>
+            <button class="add-task" onclick="displayAddTask()"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg></button>
+
+        </div>
+        
+        <p class="desc">Create a todo list to manage all your tasks in one place.</p>
+        <div id="add-task">
+            <div class="flex-input">
+                <input type="text" class="taskInput" id="taskInput" placeholder="e.g. complete api assignment">
+                <input type="datetime-local" class="dateInput" id="dateInput" placeholder="e.g. complete api assignment">
+            </div>
+            <button class="btn" onclick="addTask()">Add Tasks</button>
+
+        </div>
+       
+
+    </div>
+
+    <div class="todos-container">
+        <div class="card">
+
+            <div class="card-flex">
+                <input type="checkbox" class="checkbox">
+                <div class="task">Complete college assignments</div>
+            </div>
+            <div class="due-date">Friday 3 August</div>
+           
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-flex">
+                <input type="checkbox" class="checkbox">
+                <div class="task">Complete API assignments</div>
+            </div>
+            <div class="due-date">Monday 23 July</div>
+           
+
+        </div>
+
+        
+        
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
